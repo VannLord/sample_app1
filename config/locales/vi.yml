@@ -1,0 +1,13 @@
+vi:
+  index:
+    title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+    sa: "Ứng dụng mẫu"
+    home: "Trang chủ"
+    help: "Trợ giúp"
+    log_in: "Đăng nhập"
+    en: "Tiếng Anh"
+    vi: "Tiếng Việt"
+    welcome: "Chào mừng đến với ứng dụng mẫu"
+    sign_up: "Đăng kí"
+    find_me: "Tìm tôi tại"
+
