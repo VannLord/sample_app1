@@ -1,0 +1,4 @@
+users:
+  email:
+    max_length: 8
+    regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
