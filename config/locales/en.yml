@@ -10,4 +10,11 @@ en:
     welcome: "Welcome to Sample app"
     sign_up: "Sign Up"
     find_me: "Find me at"
+    form_contain:
+      one: "Form contains %{count} error"
+      other: "Form contains %{count} errors"
+    name: "Name"
+    password: "Password"
+    confirmation: "Password confirmation"
+    nil_user: "User doesn't exist"
 
