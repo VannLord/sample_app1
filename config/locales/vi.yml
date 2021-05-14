@@ -10,4 +10,12 @@ vi:
     welcome: "Chào mừng đến với ứng dụng mẫu"
     sign_up: "Đăng kí"
     find_me: "Tìm tôi tại"
+    form_contain:
+      one: "Mẫu này có %{count} lỗi"
+      other: "Mẫu này có %{count} lỗi"
+    name: "Tên"
+    password: "Mật khẩu"
+    confirmation: "Xác nhận mật khẩu"
+    nil_user: "Người dùng không tồn tại"
+
 

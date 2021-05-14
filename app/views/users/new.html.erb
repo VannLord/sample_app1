@@ -1,0 +1,18 @@
+<% provide :title, t("index.sign_up") %>
+<h1><%= t "index.sign_up" %></h1>
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_for @user do |f| %>
+      <%= render "shared/error_messages" %>
+      <%= f.label :name, t("index.name") %>
+      <%= f.text_field :name %>
+      <%= f.label :email %>
+      <%= f.email_field :email %>
+      <%= f.label :password, t("index.password") %>
+      <%= f.password_field :password %>
+      <%= f.label :password_confirmation, t("index.confirmation") %>
+      <%= f.password_field :password_confirmation %>
+      <%= f.submit t("index.create"), class: "btn btn-primary" %>
+    <% end %>
+  </div>
+</div>
