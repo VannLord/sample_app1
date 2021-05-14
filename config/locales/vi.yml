@@ -17,5 +17,14 @@ vi:
     password: "Mật khẩu"
     confirmation: "Xác nhận mật khẩu"
     nil_user: "Người dùng không tồn tại"
+    wrong_login: "Username and password are invalid !!"
+    profile: "Hồ sơ"
+    setting: "Cài đặt"
+    log_out: "Đăng xuất"
+    language: "Ngôn ngữ"
+    account: "Tài Khoản"
+    users: "Người dùng"
+    create: "Tạo"
+    new_user: "Người dùng mới ?"
 
 
