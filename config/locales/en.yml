@@ -17,4 +17,13 @@ en:
     password: "Password"
     confirmation: "Password confirmation"
     nil_user: "User doesn't exist"
+    wrong_login: "Username and password are invalid !!"
+    profile: "Profile"
+    setting: "Setting"
+    log_out: "Log out"
+    language: "Language"
+    account: "Account"
+    users: "Users"
+    create: "Create"
+    new_user: "New user ?"
 
