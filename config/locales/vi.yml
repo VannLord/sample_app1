@@ -27,4 +27,10 @@ vi:
     create: "Tạo"
     new_user: "Người dùng mới ?"
     remember_me: "Ghi nhớ đăng nhập"
+    edit: "Sửa"
+    delete: "Xóa"
+    save_changes: "Lưu thay đổi"
+    sure?: "Bạn chắc không ?"
+    profile_updated: "Hồ sơ được cập nhật"
+    change: "Thay đổi"
 

@@ -6,7 +6,7 @@
         <li><%= link_to t("index.home"), static_pages_home_path %></li>
         <li><%= link_to t("index.help"), static_pages_help_path %></li>
         <% if logged_in? %>
-          <li><%= link_to t("index.users"), "#" %></li>
+          <li><%= link_to t("index.users"), users_path %></li>
           <li class="dropdown">
             <%= link_to "#", class: "dropdown-toggle", "data-toggle": "dropdown" do %>
               <%= t "index.account" %>
@@ -14,7 +14,7 @@
             <% end %>
             <ul class="dropdown-menu">
               <li><%= link_to t("index.profile"), current_user %></li>
-              <li><%= link_to t("index.setting"), "#" %></li>
+              <li><%= link_to t("index.setting"), edit_user_path(current_user) %></li>
               <li class="divider"></li>
               <li><%= link_to t("index.log_out"), logout_path, method: :delete %></li>
             </ul>
