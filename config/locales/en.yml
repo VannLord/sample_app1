@@ -27,4 +27,11 @@ en:
     create: "Create"
     new_user: "New user ?"
     remember_me: "Remember me on this computer"
+    edit: "Edit"
+    delete: "Delete"
+    save_changes: "Save changes"
+    sure?: "You sure ?"
+    profile_updated: "Profile updated"
+    change: "Change"
+
 

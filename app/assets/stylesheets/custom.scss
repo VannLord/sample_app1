@@ -119,3 +119,14 @@ input {
   margin-left: 0;
   width: auto;
 }
+
+.users {
+  list-stule: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--light-grey);
+  }
+}
+

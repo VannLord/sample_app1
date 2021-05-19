@@ -36,6 +36,9 @@ class User < ApplicationRecord
                     length: {maximum: Settings.users.email.max_length},
                     presence: true, uniqueness: true
   validates :name, presence: true
+  validates :password, presence: true,
+                       length: {minimum: Settings.users.password.min_length},
+                       allow_nil: true
 
   def downcase_email
     email.downcase!
