@@ -33,4 +33,10 @@ vi:
     sure?: "Bạn chắc không ?"
     profile_updated: "Hồ sơ được cập nhật"
     change: "Thay đổi"
+    hi_and_activation: "Xin chào% {name} Chào mừng bạn đến với Ứng dụng Mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản:"
+    activated: "Tài khoản đã được kích hoạt"
+    invalid_active_link: "Liên kết kích hoạt không hợp lệ"
+    not_activated: "Tài khoản chưa được kích hoạt. Kiểm tra liên kết kích hoạt email."
+    check_mail: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
+    activation: "Kích hoạt tài khoản"
 
