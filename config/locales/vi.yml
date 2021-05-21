@@ -39,4 +39,12 @@ vi:
     not_activated: "Tài khoản chưa được kích hoạt. Kiểm tra liên kết kích hoạt email."
     check_mail: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
     activation: "Kích hoạt tài khoản"
+    be_reset: "Mật khẩu đã được đặt lại"
+    reset_email: "Email được gửi kèm theo hướng dẫn đặt lại mật khẩu"
+    invalid_email: "Không tìm thấy địa chỉ email"
+    reset_expired: "Email đặt lại mật khẩu đã hết hạn"
+    reset_password: "Đặt lại mật khẩu"
+    forgot_password: "Quên mật khẩu"
+    search: "Tìm kiếm"
+    expired_and_ignore: "Liên kết này sẽ hết hạn sau hai giờ, nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ."
 
