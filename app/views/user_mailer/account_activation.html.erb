@@ -1,2 +1,2 @@
 <%= t("sample_app.index.hi_and_activation", name: @user.name) %>
-<%= edit_account_activation_url(id: @user.activation_token, email: @user.email) %>
+<%=link_to t("index.activation"), edit_account_activation_url(id: @user.activation_token, email: @user.email) %>
