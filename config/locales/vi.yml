@@ -62,4 +62,9 @@ vi:
     ror_tu: "Ruby on Rail Hướng dẫn"
     microposts: "Microposts %{count}"
     this_is: "Đây là"
+    followers: "Người theo dõi"
+    following: "Đang theo dõi"
+    follow: "Theo dõi"
+    unfollow: "Hủy theo dõi"
+    nil_relationship: "Mối quan hệ không được tìm thấy!"
 

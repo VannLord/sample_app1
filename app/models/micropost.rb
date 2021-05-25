@@ -1,6 +1,7 @@
 class Micropost < ApplicationRecord
   belongs_to :user, dependent: :destroy
   scope :recent_posts, ->{order created_at: :desc}
+  scope :load_feed, ->(user_id){where("user_id IN (?)", user_id)}
   has_one_attached :image
   validates :content, presence: true,
               length: {maximum: Settings.users.micropost.max_length}
