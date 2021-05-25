@@ -1,4 +1,14 @@
 en:
+  micropost:
+    created: "Micropost created!"
+    deleted: "Micropost deleted!"
+    invalid: "Micropost is invalid!"
+    posted_ago: "Posted %{time} ago"
+    max_size: "Maximum file size is 5MB. Please choose a smaller file."
+    feed: "Micropost Feed"
+    compose_new: "Compose new micropost..."
+    image_format: "must be a valid image format"
+    less_than_5MB: "should be less than 5MB"
   index:
     title: "Ruby on Rails Tutorial Sample App"
     sa: "Sample App"
@@ -48,5 +58,10 @@ en:
     search: "Search"
     expired_and_ignore: "This link will expire in two hours.If you did not request your password to be reset, please ignore this email and your password will stay
         as it is."
+    post: "Post"
+    micropost: "Micropost"
+    microposts: "Microposts %{count}"
+    ror_tu: "Ruby on Rail Tutorial"
+    this_is: "This is"
 
 

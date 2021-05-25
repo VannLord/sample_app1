@@ -1,9 +1,16 @@
 users:
+  size: 50
   email:
     max_length: 28
     regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   password:
     min_length: 6
+  micropost:
+    max_length: 140
 mail:
   reset:
     expired: 2
+image:
+  max: 5
+  format: "image/jpeg,image/gif,image/png"
+

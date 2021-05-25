@@ -1,4 +1,28 @@
+<% if logged_in? %>
+  <div class="row">
+    <aside class="col-md-4">
+      <section class="user_info">
+        <%= render "shared/user_info" %>
+      </section>
+      <section class="micropost_form">
+        <%= render "shared/micropost_form" %>
+      </section>
+    </aside>
+    <div class="col-md-8">
+      <h3><%= t "micropost.feed" %></h3>
+      <%= render "shared/feed" %>
+    </div>
+  </div>
+<% else %>
 <div class="center jumbotron">
-  <h1><%= t "index.welcome" %></h1>
-  <%= link_to t("index.sign_up"), new_user_path, class: "btn btn-lg btn-primary" %>
+  <h1> <%= t "index.welcome" %></h1>
+  <h2>
+    <%= t "index.this_is" %>
+    <a href="http://www.railstutorial.org/"><%= t ".index.ror_tu" %></a>
+    <%= t "index.sa" %>
+  </h2>
+  <%= link_to t("index.sign_up") , new_user_path, class: "btn btn-lg btn-primary" %>
 </div>
+<% end %>
+<%= javascript_pack_tag "micropost_form" %>
+
