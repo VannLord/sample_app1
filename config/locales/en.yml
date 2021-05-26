@@ -63,5 +63,9 @@ en:
     microposts: "Microposts %{count}"
     ror_tu: "Ruby on Rail Tutorial"
     this_is: "This is"
+    followers: "Followers"
+    following: "Following"
+    follow: "Follow"
+    unfollow: "Unfollow"
 
 
